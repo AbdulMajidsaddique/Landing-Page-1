@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114, 88, 101, 0.881);
+    display: flex;
+}
+#nav{
+    position: absolute;
+    width: 350px;
+    left: 7%;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-family: gilroy;
+    font-size: 20px;
+    color: #fff;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-image: url('https://images.unsplash.com/photo-1498746607408-1e56960e3bdd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.5);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+}
+#text-div{
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 35%;
+    transform: translate(0.,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    line-height: 78px;
+    letter-spacing: 5px;
+}
+#small-img-div{
+    position: absolute;
+    background-image: url('https://plus.unsplash.com/premium_photo-1667520043080-53dcca77e2aa?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position:center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    top: 15%;
+    right: 4%;
+    transform: translate(0.-30%);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.356);
+}
+#vertical-text{
+     position: absolute;
+     transform: rotate(90deg);
+     right: -76%;
+     top: -8%;
+     transform-origin: 0% 0%;
+}
+#vertical-text>h1{
+   font-size: 70px;
+   letter-spacing: 10px;
+   font-family: monument;
+   font-weight: 900;
+   color: transparent;
+   text-transform: uppercase;
+   -webkit-text-stroke-color: #fff;
+   -webkit-text-stroke-width: 2px;
+}
